@@ -68,14 +68,17 @@ Aqui está um resumo dos passos que você precisa seguir:
    task test
    ```
 
-7. Executar Streamlit
+7. Executar Streamlit localmente
 
-   Executar arquivo com os códigos do Streamlit para iniciar aplicação:
+   Executar arquivo com os códigos do Streamlit para iniciar aplicação localmente:
 
    ```bash
    cd Streamlit
-   streamlit run front_api.py      
+   streamlit run front_api_local.py      
    ```
 
 Neste ponto, seu navegador padrão será aberto e a aplicação se iniciará. Você pode testá-la realizando o upload de uma imagem até 2.5Mb, e baixando logo em seguida após o processamento.
+
+A aplicação também está hospedada no site do Streamlit, podendo ser acessada diretamente pelo [link](https://blurimagesapi-bpsnngqkeuandkara6zets.streamlit.app/)
+
 
