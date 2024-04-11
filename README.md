@@ -1,3 +1,5 @@
+<img src="https://github.com/vinigoia/blur_Images_api/blob/main/Arquivos%20de%20teste/_9e1f5d8c-797d-4f8d-9802-c4bc3616d759.jpg"/>
+
 <div align="center">
   
   [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/vinicius-goia-75a403234)](https://www.linkedin.com/in/vinicius-goia-75a403234)
@@ -80,5 +82,20 @@ Aqui está um resumo dos passos que você precisa seguir:
 Neste ponto, seu navegador padrão será aberto e a aplicação se iniciará. Você pode testá-la realizando o upload de uma imagem até 2.5Mb, e baixando logo em seguida após o processamento.
 
 A aplicação também está hospedada no site do Streamlit, podendo ser acessada diretamente pelo [link](https://blurimagesapi-bpsnngqkeuandkara6zets.streamlit.app/)
+
+# Funcionamento
+
+![](https://github.com/vinigoia/blur_Images_api/blob/main/Arquivos%20de%20teste/ezgif.com-video-to-gif-converter.gif)
+
+# Resultado
+
+## Imagem Original
+
+<img src="https://github.com/vinigoia/blur_Images_api/blob/main/Arquivos%20de%20teste/ellen-degeneres-de-branco-em-foto.jpg"/>
+
+## Imagem Desfocada
+
+<img src="https://github.com/vinigoia/blur_Images_api/blob/main/Arquivos%20de%20teste/img_blurred%20(1).png"/>
+
 
 
