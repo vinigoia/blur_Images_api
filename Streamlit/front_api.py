@@ -55,6 +55,7 @@ def main():
     st.sidebar.link_button('Geometria Primitiva e Transformações 2D com Python', 'https://www.naturalengines.com/post/geometria-primitiva-e-transforma%C3%A7%C3%B5es-2d-com-python')
     st.sidebar.link_button('Python e Ténica de Keying', 'https://www.naturalengines.com/post/python-e-t%C3%A9cnica-de-keying')
     st.sidebar.link_button('LinkedIn', 'https://www.linkedin.com/in/vinicius-goia-75a403234')
+    st.sidebar.link_button('Repositório', 'https://github.com/vinigoia/blur_Images_api')
     
     uploaded_file = st.file_uploader("Escolha uma imagem para desfoque de rostos (max 2,5MB)", type=["png", "jpg", "jpeg"])
     
