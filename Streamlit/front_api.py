@@ -47,7 +47,7 @@ def main():
     left_co, cent_co,last_co = st.columns(3)
     
     # Imagem principal da página
-    st.image('Logo Site.jpg')
+    st.image(Image.open('Logo Site.jpg'))
 
     #Título principal
     st.title("Aplicativo de Desfoque de Rostos")
@@ -56,7 +56,7 @@ def main():
     st.markdown('<div style="text-align: justify;">Este é um aplicativo projetado para ser utilizado como tarefa final da Especialização em Visão Computacional, ministrado por Carlos Melo, através da Escola Sigmoidal. Nele encontram-se conceitos de detecção de rostos, fitltros, manipulação de imagens, bem como toda configuração para uso de uma Função Lambda via API Gateway. Está disponibilizado no link do repositório bem como descrito detalhadamente no post do blog Natural Engines.</div>', unsafe_allow_html=True)
         
     # Adiciona o informações na sidebar
-    st.sidebar.image('teste.png')
+    st.sidebar.image(Image.open('teste.png'))
     st.sidebar.link_button('Estimativa de velocidade de carros com Yolo', 'https://www.naturalengines.com/post/estimativa-de-velocidade-de-carros-com-yolo')
     st.sidebar.link_button('Treinamento de Modelo para Classificação de Imagens', 'https://www.naturalengines.com/post/treinamento-de-modelo-para-classifica%C3%A7%C3%A3o-de-imagens')
     st.sidebar.link_button('Manuseio e Processamento de Imagens', 'https://www.naturalengines.com/post/manuseio-e-processamento-b%C3%A1sico-de-imagens')
@@ -69,7 +69,7 @@ def main():
     uploaded_file = st.file_uploader("Escolha uma imagem para desfoque de rostos (max 2,5MB)", type=["png", "jpg", "jpeg"])
     
     # Gif principal
-    st.image('teste2_gif.gif')
+    st.image(Image.open('teste2_gif.gif'))
 
     if uploaded_file is not None:
         # Convertendo a imagem carregada para um formato que a API pode processar
