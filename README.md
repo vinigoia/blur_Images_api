@@ -1,3 +1,5 @@
+<img src="https://github.com/vinigoia/blur_Images_api/blob/main/Arquivos%20de%20teste/_9e1f5d8c-797d-4f8d-9802-c4bc3616d759.jpg"/>
+
 <div align="center">
   
   [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/vinicius-goia-75a403234)](https://www.linkedin.com/in/vinicius-goia-75a403234)
