@@ -7,6 +7,7 @@ import io
 import base64
 
 def get_image_download_link(img,filename,text):
+    """Função para link de download de imagem"""
     buffered = io.BytesIO()
     img.save(buffered, format="JPEG")
     img_str = base64.b64encode(buffered.getvalue()).decode()
@@ -14,6 +15,7 @@ def get_image_download_link(img,filename,text):
     return href
 
 def blur_faces_api(img: np.ndarray) -> np.ndarray:
+    """Função para envio e recebimento de informação via API"""
     API_ENDPOINT = "https://nti7y6pgge.execute-api.us-east-2.amazonaws.com/desenvolvimento"
     # Codifica a imagem para formato PNG em bytes
     is_success, im_buf_arr = cv2.imencode(".png", img)
@@ -33,16 +35,22 @@ def blur_faces_api(img: np.ndarray) -> np.ndarray:
     return img_corrected
 
 def convert_uploaded_file_to_cv2_image(uploaded_file):
+    """Função para conversão de imagem"""
     file_bytes = np.asarray(bytearray(uploaded_file.read()), dtype=np.uint8)
     img = cv2.imdecode(file_bytes, cv2.IMREAD_COLOR)
     return img
 
 def main():
+    """Função principal de layout streamlit"""
+    
+    # Definição de colunas para layout
     left_co, cent_co,last_co = st.columns(3)
     
+    # Imagem principal da página
     st.image('Logo Site.png')
-        
-    st.title("  Aplicativo de Desfoque de Rostos")
+
+    #Título principal
+    st.title("Aplicativo de Desfoque de Rostos")
     
     # Texto descritivo abaixo do título
     st.markdown('<div style="text-align: justify;">Este é um aplicativo projetado para ser utilizado como tarefa final da Especialização em Visão Computacional, ministrado por Carlos Melo, através da Escola Sigmoidal. Nele encontram-se conceitos de detecção de rostos, fitltros, manipulação de imagens, bem como toda configuração para uso de uma Função Lambda via API Gateway. Está disponibilizado no link do repositório bem como descrito detalhadamente no post do blog Natural Engines.</div>', unsafe_allow_html=True)
@@ -57,8 +65,10 @@ def main():
     st.sidebar.link_button('LinkedIn', 'https://www.linkedin.com/in/vinicius-goia-75a403234')
     st.sidebar.link_button('Repositório', 'https://github.com/vinigoia/blur_Images_api')
     
+    # Barra de carregamento de imagem
     uploaded_file = st.file_uploader("Escolha uma imagem para desfoque de rostos (max 2,5MB)", type=["png", "jpg", "jpeg"])
     
+    # Gif principal
     st.image('teste2_gif.gif')
 
     if uploaded_file is not None:
@@ -86,8 +96,6 @@ def main():
                 
         except Exception as e:
             st.error(f"Erro ao processar a imagem: {e}")
-            
-
 
 if __name__ == "__main__":
     main()
