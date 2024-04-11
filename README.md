@@ -83,4 +83,19 @@ Neste ponto, seu navegador padrão será aberto e a aplicação se iniciará. Vo
 
 A aplicação também está hospedada no site do Streamlit, podendo ser acessada diretamente pelo [link](https://blurimagesapi-bpsnngqkeuandkara6zets.streamlit.app/)
 
+# Funcionamento
+
+![](https://github.com/vinigoia/blur_Images_api/blob/main/Arquivos%20de%20teste/ezgif.com-video-to-gif-converter.gif)
+
+# Resultado
+
+## Imagem Original
+
+<img src="https://github.com/vinigoia/blur_Images_api/blob/main/Arquivos%20de%20teste/ellen-degeneres-de-branco-em-foto.jpg"/>
+
+## Imagem Desfocada
+
+<img src="https://github.com/vinigoia/blur_Images_api/blob/main/Arquivos%20de%20teste/img_blurred%20(1).png"/>
+
+
 
