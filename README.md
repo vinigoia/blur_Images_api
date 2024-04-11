@@ -85,7 +85,7 @@ A aplicação também está hospedada no site do Streamlit, podendo ser acessada
 
 # Funcionamento
 
-![](https://github.com/vinigoia/blur_Images_api/blob/main/Arquivos%20de%20teste/ezgif.com-video-to-gif-converter.gif)
+<img src="https://github.com/vinigoia/blur_Images_api/blob/main/Arquivos%20de%20teste/ezgif.com-video-to-gif-converter.gif" width="50%" height="50%"/>
 
 # Resultado
 
