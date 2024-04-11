@@ -61,7 +61,7 @@ def main():
     st.sidebar.link_button('Treinamento de Modelo para Classificação de Imagens', 'https://www.naturalengines.com/post/treinamento-de-modelo-para-classifica%C3%A7%C3%A3o-de-imagens')
     st.sidebar.link_button('Manuseio e Processamento de Imagens', 'https://www.naturalengines.com/post/manuseio-e-processamento-b%C3%A1sico-de-imagens')
     st.sidebar.link_button('Geometria Primitiva e Transformações 2D com Python', 'https://www.naturalengines.com/post/geometria-primitiva-e-transforma%C3%A7%C3%B5es-2d-com-python')
-    st.sidebar.link_button('Python e Ténica de Keying', 'https://www.naturalengines.com/post/python-e-t%C3%A9cnica-de-keying')
+    st.sidebar.link_button('Python e Técnica de Keying', 'https://www.naturalengines.com/post/python-e-t%C3%A9cnica-de-keying')
     st.sidebar.link_button('LinkedIn', 'https://www.linkedin.com/in/vinicius-goia-75a403234')
     st.sidebar.link_button('Repositório', 'https://github.com/vinigoia/blur_Images_api')
     
