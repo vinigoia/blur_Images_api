@@ -47,7 +47,7 @@ def main():
     left_co, cent_co,last_co = st.columns(3)
     
     # Imagem principal da página
-    st.image('Logo Site.png')
+    st.image('Logo Site.jpg')
 
     #Título principal
     st.title("Aplicativo de Desfoque de Rostos")
