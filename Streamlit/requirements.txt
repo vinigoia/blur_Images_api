@@ -1,0 +1,5 @@
+opencv_python_headless
+numpy
+streamlit_webrtc
+Pillow
+requests
