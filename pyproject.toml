@@ -2,7 +2,7 @@
 name = "blur-faces"
 version = "0.1.0"
 description = ""
-authors = ["*Vinicius_Goia* <*vinicius@naturalengines.com*>"]
+authors = ["Vinicius_Goia <vinicius@naturalengines.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
