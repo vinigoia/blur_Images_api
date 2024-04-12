@@ -53,7 +53,7 @@ def main():
     st.title("Aplicativo de Desfoque de Rostos")
     
     # Texto descritivo abaixo do título
-    st.markdown('<div style="text-align: justify;">Este é um aplicativo projetado para ser utilizado como tarefa final da Especialização em Visão Computacional, ministrado por Carlos Melo, através da Escola Sigmoidal. Nele encontram-se conceitos de detecção de rostos, fitltros, manipulação de imagens, bem como toda configuração para uso de uma Função Lambda via API Gateway. Está disponibilizado no link do repositório bem como descrito detalhadamente no post do blog Natural Engines.</div>', unsafe_allow_html=True)
+    st.markdown('<div style="text-align: justify;">Este é um aplicativo projetado para ser utilizado como tarefa final da Especialização em Visão Computacional, ministrado por Carlos Melo, através da Escola Sigmoidal. Nele encontram-se conceitos de detecção de rostos, filtros, manipulação de imagens, bem como toda a configuração para uso de uma Função Lambda via API Gateway. Está disponibilizado no link do repositório bem como descrito detalhadamente no post do blog Natural Engines.</div>', unsafe_allow_html=True)
         
     # Adiciona o informações na sidebar
     st.sidebar.image('teste.png')
